@@ -20,6 +20,7 @@ npx skills add minaonlyone/odoo-skills --skill odoo-module-builder
 
 # install to a specific agent only
 npx skills add minaonlyone/odoo-skills -a claude-code
+npx skills add minaonlyone/odoo-skills -a antigravity
 
 # install globally (available in every project)
 npx skills add minaonlyone/odoo-skills -g
