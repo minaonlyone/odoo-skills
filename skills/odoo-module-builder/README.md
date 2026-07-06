@@ -29,15 +29,11 @@ which installs into any of 70+ supported agents (Claude Code, Cursor, Codex,
 OpenCode, ...):
 
 ```bash
-# from this repo checked out locally
-npx skills add /Users/mina/odoo-skills --skill odoo-module-builder
-
-# once this repo is pushed to GitHub
-npx skills add <you>/odoo-skills --skill odoo-module-builder
+npx skills add minaonlyone/odoo-skills --skill odoo-module-builder
 
 # target a specific agent, or install globally
-npx skills add /Users/mina/odoo-skills --skill odoo-module-builder -a claude-code
-npx skills add /Users/mina/odoo-skills --skill odoo-module-builder -g
+npx skills add minaonlyone/odoo-skills --skill odoo-module-builder -a claude-code
+npx skills add minaonlyone/odoo-skills --skill odoo-module-builder -g
 ```
 
 **Manual copy** (no CLI, Claude Code specifically):

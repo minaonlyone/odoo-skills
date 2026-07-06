@@ -13,23 +13,22 @@ into Claude Code, Cursor, Codex, OpenCode, and 60+ other agents.
 ## Install
 
 ```bash
-# from GitHub, once pushed (replace <you> with your GitHub username/org)
-npx skills add <you>/odoo-skills
+npx skills add minaonlyone/odoo-skills
 
-# from a local clone/checkout, no GitHub push required
-npx skills add /Users/mina/odoo-skills
+# install a specific skill only
+npx skills add minaonlyone/odoo-skills --skill odoo-module-builder
 
 # install to a specific agent only
-npx skills add /Users/mina/odoo-skills -a claude-code
+npx skills add minaonlyone/odoo-skills -a claude-code
 
 # install globally (available in every project)
-npx skills add /Users/mina/odoo-skills -g
+npx skills add minaonlyone/odoo-skills -g
 ```
 
 List skills in this repo without installing:
 
 ```bash
-npx skills add /Users/mina/odoo-skills --list
+npx skills add minaonlyone/odoo-skills --list
 ```
 
 ## Structure
