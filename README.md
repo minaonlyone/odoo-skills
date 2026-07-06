@@ -4,6 +4,34 @@ A skills source repo for the [open agent skills ecosystem](https://agentskills.i
 installable with the [`skills` CLI](https://github.com/vercel-labs/skills)
 into Claude Code, Cursor, Codex, OpenCode, and 60+ other agents.
 
+## Prerequisites
+
+`npx` ships with Node.js, so there's nothing to pre-install — `npx skills`
+downloads and runs the [`skills` CLI](https://github.com/vercel-labs/skills)
+on demand.
+
+1. Install Node.js (which includes `npm`/`npx`) if you don't have it:
+   ```bash
+   # macOS
+   brew install node
+
+   # or via nvm (any OS)
+   curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+   nvm install --lts
+   ```
+2. Verify it's available:
+   ```bash
+   npx --version
+   ```
+3. That's it — run any `npx skills ...` command below and it will fetch the
+   CLI automatically on first use.
+
+Prefer not to re-fetch it every time? Install it once, globally:
+```bash
+npm install -g skills
+skills add minaonlyone/odoo-skills   # same commands, without the npx prefix
+```
+
 ## Skills
 
 | Skill | Description |
